@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class zad18 {
+public class Zad18 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj dwie liczby");
