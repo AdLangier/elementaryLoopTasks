@@ -9,7 +9,7 @@ public class Zad6 {
         do {                                           //                    ||
             System.out.println("Podaj hasło");         //                    \/
             password = scanner.next();                 // przy wywołaniu tej zmiennej nie deklarujemy już typu !!!!!
-        }while(!password.equals("Akademia"));          // porównanie "Stringów" -- equals() lub !...equals() - "nie prawda,że równe"
+        }while(!password.equals("Akademia"));          // <--- porównanie "Stringów" -- equals() lub !...equals() - "nie prawda,że równe"
         System.out.println("Poprawne hasło!");
     }
 }
