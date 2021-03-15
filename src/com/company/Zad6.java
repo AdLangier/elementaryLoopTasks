@@ -8,10 +8,10 @@ public class Zad6 {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         int number1 = random.nextInt();
-        int number;
-        do {
-            System.out.println("Zgaduj liczbę");
-            number = scanner.nextInt();
+        int number;                                        // Przed pętlą do - while trzeba zadeklarować zmienną, którą użyjemy w "do"!!!!
+        do {                                                //                    ||
+            System.out.println("Zgaduj liczbę");            //                    \/
+            number = scanner.nextInt();                     // przy wywołaniu tej zmiennej nie deklarujemy już typu !!!!!
         }while(number != number1);
         System.out.println("Brawo! odgadłeś liczbę");
     }
